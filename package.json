@@ -1,0 +1,21 @@
+{
+  "name": "newman-reporter-clean-json",
+  "version": "1.0.0",
+  "description": "Provides the same report as the default json newman-reporter, but omits the request and response body from execution. Therefore executions with multiple large request and response bodies can be processed by JSON.stringify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "newman",
+    "postman",
+    "reporter",
+    "json"
+  ],
+  "author": "dsorna",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": ">=4.17.15",
+    "newman": ">=4.6.1"
+  }
+}
